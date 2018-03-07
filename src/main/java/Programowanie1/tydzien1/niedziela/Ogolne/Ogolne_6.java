@@ -1,7 +1,11 @@
+/*
+ * Created by Wojciech Wasilewski
+ */
+
 //Wylosuj 1000 liczb z zakresu 1000-2000 i zapisz je do listy. Skorzystaj z stream() w
 //liście do wyszukania najmniejszej i największej wartości.
 
-package Programowanie1.tydzien1.niedziela;
+package Programowanie1.tydzien1.niedziela.Ogolne;
 
 import java.util.ArrayList;
 import java.util.Comparator;

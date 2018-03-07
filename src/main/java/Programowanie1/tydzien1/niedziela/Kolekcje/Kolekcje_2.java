@@ -1,7 +1,11 @@
+/*
+ * Created by Wojciech Wasilewski
+ */
+
 //Dodaj 10 losowych liczb do kolekcji. Korzystając z indeksów pobierz po kolei
 //wszystkie elementy i wyświetl je.
 
-package Programowanie1.tydzien1.niedziela;
+package Programowanie1.tydzien1.niedziela.Kolekcje;
 
 import java.util.ArrayList;
 import java.util.List;

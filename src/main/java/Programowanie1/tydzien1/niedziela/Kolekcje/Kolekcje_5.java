@@ -1,8 +1,12 @@
+/*
+ * Created by Wojciech Wasilewski
+ */
+
 //Jesteś osobą przetwarzająca zadania w kolejności w jakiej do Ciebie przyszły
 //(kolejka FIFO). Wykorzystaj do tego odpowiednią kolekcję. Dodaj 10 zadań, a
 //następnie pobierz je z kolekcji w takiej kolejności w jakiej zostały do niej dodane.
 
-package Programowanie1.tydzien1.niedziela;
+package Programowanie1.tydzien1.niedziela.Kolekcje;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

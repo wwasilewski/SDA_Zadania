@@ -1,8 +1,12 @@
+/*
+ * Created by Wojciech Wasilewski
+ */
+
 //Utwórz kolekcję, na następnie dodaj do niej 5 imion. Korzystając z Stream zmodyfikuj
 //kolekcję tak, aby imiona były pisane dużymi literami (UPPERCASE), a następnie
 //wyświetl wszystkie imiona.
 
-package Programowanie1.tydzien1.niedziela;
+package Programowanie1.tydzien1.niedziela.Streamy;
 
 import java.util.ArrayList;
 import java.util.Arrays;

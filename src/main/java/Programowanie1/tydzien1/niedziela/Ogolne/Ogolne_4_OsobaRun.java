@@ -1,4 +1,8 @@
-package Programowanie1.tydzien1.niedziela;
+/*
+ * Created by Wojciech Wasilewski
+ */
+
+package Programowanie1.tydzien1.niedziela.Ogolne;
 
 public class Ogolne_4_OsobaRun
 {

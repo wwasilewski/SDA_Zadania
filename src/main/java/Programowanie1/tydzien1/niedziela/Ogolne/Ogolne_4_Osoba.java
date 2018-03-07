@@ -1,9 +1,13 @@
+/*
+ * Created by Wojciech Wasilewski
+ */
+
 //Przygotuj klasę osoba z polami imię, nazwisko, PESEL oraz nadpisz (@override)
 //metodę .toString() tak aby wyświetlała dane osoby w formacie "Imie: %s, Nazwisko:
 //%s, PESEL: %s". Utwórz instancję klasy osoba, wypełnij przykładowymi danymi oraz
 //wyświetl dane osoby korzystając z przygotowanej metody toString().
 
-package Programowanie1.tydzien1.niedziela;
+package Programowanie1.tydzien1.niedziela.Ogolne;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

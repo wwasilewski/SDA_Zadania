@@ -1,7 +1,11 @@
+/*
+ * Created by Wojciech Wasilewski
+ */
+
 //Utwórz nieposortowaną kolekcję z 10 dowolnymi i unikatowymi imionami.
 //Korzystając ze strumieni posortuj kolekcję i wyświetl ją.
 
-package Programowanie1.tydzien1.niedziela;
+package Programowanie1.tydzien1.niedziela.Streamy;
 
 import java.util.ArrayList;
 import java.util.Arrays;

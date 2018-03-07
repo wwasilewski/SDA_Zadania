@@ -1,7 +1,11 @@
+/*
+ * Created by Wojciech Wasilewski
+ */
+
 //Dodaj 5 imion do kolekcji. Wybierz tą kolekcję, która posortuje wprowadzone
 //wartości. Po dodaniu elementów wyświetl wszystkie.
 
-package Programowanie1.tydzien1.niedziela;
+package Programowanie1.tydzien1.niedziela.Kolekcje;
 
 import java.util.ArrayList;
 import java.util.Arrays;

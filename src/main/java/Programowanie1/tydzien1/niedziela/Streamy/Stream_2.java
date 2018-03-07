@@ -1,7 +1,11 @@
+/*
+ * Created by Wojciech Wasilewski
+ */
+
 //Utwórz kolekcję z 10 imionami (W kolekcji musi pojawić się imię Jan). Korzystając
 //ze strumieni znajdź imię Jan i wyświetl je.
 
-package Programowanie1.tydzien1.niedziela;
+package Programowanie1.tydzien1.niedziela.Streamy;
 
 import java.util.ArrayList;
 import java.util.Arrays;

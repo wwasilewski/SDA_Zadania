@@ -1,10 +1,14 @@
+/*
+ * Created by Wojciech Wasilewski
+ */
+
 //Jesteś firmą produkującą tabliczki z imionami. Dla każdego imienia musisz
 //przygotować matrycę. Raz przygotowana matryca może być wykorzystywana
 //wielokrotnie. Korzystając z odpowiedniej kolekcji dodaj do niej imiona (co najmniej
 //10) osób tak aby w kolekcji się nie powtarzały. Podczas dodawania dodaj kilka imion
 //powtarzających się.
 
-package Programowanie1.tydzien1.niedziela;
+package Programowanie1.tydzien1.niedziela.Kolekcje;
 
 import java.util.Arrays;
 import java.util.HashSet;

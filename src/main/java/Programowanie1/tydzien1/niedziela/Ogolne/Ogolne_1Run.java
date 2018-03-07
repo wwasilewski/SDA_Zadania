@@ -1,4 +1,8 @@
-package Programowanie1.tydzien1.niedziela;
+/*
+ * Created by Wojciech Wasilewski
+ */
+
+package Programowanie1.tydzien1.niedziela.Ogolne;
 
 import java.util.Scanner;
 

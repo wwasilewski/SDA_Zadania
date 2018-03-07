@@ -1,7 +1,11 @@
+/*
+ * Created by Wojciech Wasilewski
+ */
+
 //Utwórz kolejkę osób do lekarza. Dodaj 10 losowych osób i wyświetl pierwsza i
 //ostatnią osobę z kolejki. Nie korzystaj z listy ArrayList.
 
-package Programowanie1.tydzien1.niedziela;
+package Programowanie1.tydzien1.niedziela.Kolekcje;
 
 import java.util.*;
 

@@ -1,8 +1,12 @@
+/*
+ * Created by Wojciech Wasilewski
+ */
+
 //Przygotuj program, który pobiera od użytkownika 3 liczby, a następnie wskazuje
 //największą oraz najmniejszą z nich. Dodatkowo program oblicza sumę podanych
 //liczb.
 
-package Programowanie1.tydzien1.niedziela;
+package Programowanie1.tydzien1.niedziela.Ogolne;
 
 public class Ogolne_1 {
     public static void najwiekszaINajmniejsza(int liczba1, int liczba2, int liczba3) {

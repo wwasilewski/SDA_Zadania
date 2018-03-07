@@ -1,7 +1,11 @@
+/*
+ * Created by Wojciech Wasilewski
+ */
+
 //Zaktualizuj program, aby umożliwiał użytkownikowi przekazanie dowolnej liczby
 //parametrów.
 
-package Programowanie1.tydzien1.niedziela;
+package Programowanie1.tydzien1.niedziela.Ogolne;
 
 import java.util.ArrayList;
 import java.util.Scanner;

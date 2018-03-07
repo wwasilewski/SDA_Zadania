@@ -1,7 +1,11 @@
+/*
+ * Created by Wojciech Wasilewski
+ */
+
 //Utwórz kolekcję z 6 liczbami. Korzystając z strumieni znajdź maksymalną i
 //minimalną liczbę znajdującą się w kolekcji.
 
-package Programowanie1.tydzien1.niedziela;
+package Programowanie1.tydzien1.niedziela.Streamy;
 
 import java.util.ArrayList;
 import java.util.Comparator;
