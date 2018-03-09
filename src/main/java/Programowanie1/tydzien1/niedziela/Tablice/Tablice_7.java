@@ -7,7 +7,7 @@ package Programowanie1.tydzien1.niedziela.Tablice;
 import java.util.Arrays;
 
 public class Tablice_7 {
-    public static void checkSumFromArray(int[] array) {
+    public static String checkSumFromArray(int[] array) {
         int sumEven = 0;
         int sumOdd = 0;
 
@@ -18,10 +18,11 @@ public class Tablice_7 {
                 sumOdd += array[i];
             }
         }
+
         if (sumEven > sumOdd) {
-            System.out.println("sumEven > sumOdd" + " --> sumEven:" + sumEven + ", sumOdd:" + sumOdd);
+            return "sumEven > sumOdd";
         } else {
-            System.out.println("sumOdd > sumEven" + " --> sumEven:" + sumEven + ", sumOdd:" + sumOdd);
+            return "sumOdd > sumEven";
         }
     }
 
@@ -30,9 +31,9 @@ public class Tablice_7 {
         int array2[] = {0, 1, 0, 1, 0, 1, 0};
 
         System.out.println("Array1: " + Arrays.toString(array1));
-        checkSumFromArray(array1);
+        System.out.println(checkSumFromArray(array1));
 
         System.out.println("\nArray2: " + Arrays.toString(array2));
-        checkSumFromArray(array2);
+        System.out.println(checkSumFromArray(array2));
     }
 }
