@@ -17,9 +17,9 @@ public class Ogolne_5Run {
         Ogolne_5 zad5 = new Ogolne_5();
         Boolean result = zad5.palindrome(text);
         if (result) {
-            System.out.println("Wprowadzony ciag znakow jest palindromen");
+            System.out.println("Wprowadzony ciag znakow \"" + text + "\" jest palindromem");
         } else {
-            System.out.println("Wprowadznoy ciag znakow nie jest palindromem");
+            System.out.println("Wprowadzony ciag znakow \"" + text + "\" nie jest palindromem");
         }
         sc.close();
     }

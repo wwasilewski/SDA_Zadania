@@ -14,7 +14,7 @@ public class Ogolne_5Test {
     @Test
     public void isStringPalindrome() {
         Ogolne_5 zad5 = new Ogolne_5();
-        String text = "kajak";
+        String text = "Może jutro ta dama da tortu jeżom";
         Boolean result = zad5.palindrome(text);
         Assert.assertTrue("method does not work correctly", result == true);
     }
