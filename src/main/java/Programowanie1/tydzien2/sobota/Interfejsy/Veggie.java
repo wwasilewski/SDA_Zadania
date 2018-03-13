@@ -7,15 +7,17 @@
 
 package Programowanie1.tydzien2.sobota.Interfejsy;
 
+import Programowanie1.tydzien2.sobota.Interfejsy.PizzaDough.PizzaDough;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Veggie implements Pizza
-{
-    private List <String> ingredientsList;
+public class Veggie implements Pizza, Ingredients {
+    private List<String> ingredientsList;
+    private PizzaDough pizzaDough;
 
-    public Veggie()
-    {
+    public Veggie(PizzaDough pizDough) {
+        this.pizzaDough = pizDough;
         this.ingredientsList = new ArrayList<>();
         ingredientsList.add("cheese");
         ingredientsList.add("tomato sauce");
@@ -23,17 +25,26 @@ public class Veggie implements Pizza
         ingredientsList.add("spinach");
     }
 
+    public Veggie(List<String> ingredientsList, PizzaDough pizDough) {
+        this.ingredientsList = ingredientsList;
+        this.pizzaDough = pizDough;
+    }
+
     @Override
-    public void preparePizza()
-    {
+    public void preparePizza() {
         System.out.println("----- Veggie Pizza -----");
-        System.out.println("Making pizza dough");
+        System.out.println("Making pizza dough: ");
+        pizzaDough.preparePizzaDough();
         System.out.println("Adding ingredients: ");
-        for (String x : ingredientsList)
-        {
+        for (String x : ingredientsList) {
             System.out.print(x + " ");
         }
         System.out.println("\nNow it's cooking time");
         System.out.println("Pizza is ready");
+    }
+
+    @Override
+    public List<String> getIngredients() {
+        return ingredientsList;
     }
 }

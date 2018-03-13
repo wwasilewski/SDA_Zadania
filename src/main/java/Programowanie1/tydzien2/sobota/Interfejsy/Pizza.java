@@ -7,7 +7,6 @@
 
 package Programowanie1.tydzien2.sobota.Interfejsy;
 
-public interface Pizza
-{
+public interface Pizza {
     void preparePizza();
 }
