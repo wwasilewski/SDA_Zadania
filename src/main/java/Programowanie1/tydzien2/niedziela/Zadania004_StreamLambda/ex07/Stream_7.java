@@ -20,7 +20,7 @@ public class Stream_7 {
                 .mapToDouble(n -> n)
                 .toArray();
 
-        //System.out.print(Arrays.toString(arr) + " ");
+//        System.out.print(Arrays.toString(arr) + " "); - do przeklejki w testach
         return arr;
     }
 
