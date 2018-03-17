@@ -1,10 +1,9 @@
 package Programowanie1.tydzien2.sobota.Ogolne;
 
-import Programowanie1.tydzien2.sobota.Ogolne.Ogolne_2_PrimeNumber;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class Ogolne_2Test {
+public class Ogolne_2_PrimeNumberTest {
     @Test
     public void NumberIsPrime() {
         Ogolne_2_PrimeNumber zad2 = new Ogolne_2_PrimeNumber();

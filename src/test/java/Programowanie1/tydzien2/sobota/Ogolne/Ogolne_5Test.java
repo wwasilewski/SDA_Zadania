@@ -6,7 +6,6 @@
 
 package Programowanie1.tydzien2.sobota.Ogolne;
 
-import Programowanie1.tydzien2.sobota.Ogolne.Ogolne_5;
 import org.junit.Assert;
 import org.junit.Test;
 
