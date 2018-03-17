@@ -4,7 +4,7 @@
 //Wprowadzony ciąg znaków “<wprowadzone_znaki>” jest palindromem
 //lub Wprowadzony ciąg znaków “<wprowadzone_znaki>” nie jest palindromem
 
-package Programowanie1.tydzien2.sobota;
+package Programowanie1.tydzien2.sobota.Ogolne;
 
 import Programowanie1.tydzien2.sobota.Ogolne.Ogolne_5;
 import org.junit.Assert;

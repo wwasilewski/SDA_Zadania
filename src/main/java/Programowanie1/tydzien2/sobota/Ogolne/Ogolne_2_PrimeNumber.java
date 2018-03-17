@@ -5,7 +5,7 @@
 
 package Programowanie1.tydzien2.sobota.Ogolne;
 
-public class Ogolne_2 {
+public class Ogolne_2_PrimeNumber {
     public Boolean isPrime(int number) {
         for (int i = 2; i < number; i++) {
             if (number % i == 0)

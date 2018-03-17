@@ -1,7 +1,7 @@
 //Napisz program, który pobiera liczbę od użytkownika i sprawdza czy podana liczba
 //jest parzysta lub nieparzysta i wyświetla stosowny komunikat.
 
-package Programowanie1.tydzien2.sobota;
+package Programowanie1.tydzien2.sobota.Ogolne;
 
 import Programowanie1.tydzien2.sobota.Ogolne.Ogolne_1;
 import org.junit.Assert;

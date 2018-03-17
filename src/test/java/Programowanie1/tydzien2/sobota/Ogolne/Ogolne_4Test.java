@@ -1,4 +1,4 @@
-package Programowanie1.tydzien2.sobota;
+package Programowanie1.tydzien2.sobota.Ogolne;
 
 import Programowanie1.tydzien2.sobota.Ogolne.Ogolne_4;
 import org.junit.Assert;
