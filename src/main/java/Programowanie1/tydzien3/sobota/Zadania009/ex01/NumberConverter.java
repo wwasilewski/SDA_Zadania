@@ -78,7 +78,7 @@ public class NumberConverter
             result = tensMap.get(tensDigit);
             if (unityDigit > 0)
             {
-                result = unityMap.get(unityDigit);
+                result = result + " " + unityMap.get(unityDigit);
             }
         }
         return result;
