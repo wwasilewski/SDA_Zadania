@@ -23,5 +23,6 @@ public class NameValidatorRun {
         } else {
             System.out.println("incorrect name");
         }
+        sc.close();
     }
 }
