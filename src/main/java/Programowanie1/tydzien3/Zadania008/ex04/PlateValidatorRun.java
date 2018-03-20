@@ -20,9 +20,9 @@ public class PlateValidatorRun {
         boolean correctPlate = nv.validate(usersPlate);
 
         if (correctPlate) {
-            System.out.println("correct name");
+            System.out.println("correct plate");
         } else {
-            System.out.println("incorrect name");
+            System.out.println("incorrect plate");
         }
         sc.close();
     }
