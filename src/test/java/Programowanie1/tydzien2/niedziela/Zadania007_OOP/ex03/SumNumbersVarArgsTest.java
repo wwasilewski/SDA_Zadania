@@ -6,13 +6,16 @@
 
 package Programowanie1.tydzien2.niedziela.Zadania007_OOP.ex03;
 
-public class SumNumbersVarArgs {
-    public int sum(int... numbers) {
-        int sum = 0;
-        for (int i : numbers) {
-            sum += i;
-        }
-        return sum;
+import org.junit.Assert;
+import org.junit.Test;
+
+import static org.hamcrest.core.Is.is;
+
+public class SumNumbersVarArgsTest {
+    @Test
+    public void isSumNumbersVarArgsOk() {
+        SumNumbersVarArgs s = new SumNumbersVarArgs();
+        Integer result = 100;
+        Assert.assertThat(result, is(s.sum(24, 24, 24, 24, 4)));
     }
 }
-
