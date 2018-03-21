@@ -22,5 +22,6 @@ public class IpValidatorRun {
         } else {
             System.out.println("incorrect IP");
         }
+        sc.close();
     }
 }
