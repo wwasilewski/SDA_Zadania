@@ -27,14 +27,14 @@ public class QuadraticEquationRun {
 
         QuadraticEquation qe = new QuadraticEquation(a, b, c);
 
-        System.out.println(qe.getDelta());
+        System.out.println("Delta: " + qe.getDelta());
 
         if (0 > qe.getDelta()) {
             System.out.println("No real numbers solution");
         } else if (0 == qe.getDelta()) {
             System.out.println("One real number solution: " + qe.getAnswer1());
         } else {
-            System.out.println("Two real numbers solutions: " + qe.getAnswer1() + " and " + qe.getAnswer2());
+            System.out.println("Two real numbers solution: " + qe.getAnswer1() + " and " + qe.getAnswer2());
         }
         sc.close();
     }
