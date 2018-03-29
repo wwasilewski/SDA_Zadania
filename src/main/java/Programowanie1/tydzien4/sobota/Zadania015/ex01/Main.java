@@ -13,8 +13,8 @@ public class Main {
     public static void main(String[] args) {
 
         List<Person> listOfPersons = new ArrayList<>();
-        listOfPersons.add(new Person("Wojtek", "W", EyeColor.Yellow, Sex.MAN));
-        listOfPersons.add(new Person("Marek", "M", EyeColor.Blue, Sex.MAN));
+        listOfPersons.add(new Person("Wojtek", "W", EyeColor.Yellow, Sex.MALE));
+        listOfPersons.add(new Person("Marek", "M", EyeColor.Blue, Sex.MALE));
         listOfPersons.add(new Person("Karolina", "K", EyeColor.Yellow, Sex.FEMALE));
 
         listOfPersons

@@ -3,13 +3,19 @@
 //wartości dla koloru oczu oraz płci. Utwórz kilka egzemplarzy obiektu Person i
 //dodaj je do listy List<Person>. Wyświetl parametry każdej klasy Person za
 //pomocą metody toString().
+//Rozwiń poprzednie zadanie i korzystając z pętli switch wyświetl informacje o
+//osobie w zależności od płci w innym kolorze. Przykładowo jeśli Person jest
+//kobietą to wyświetl w zielonym kolorze, a jeśli mężczyzną to w żółtym
+//kolorze.
 
-package Programowanie1.tydzien4.sobota.Zadania015.ex01;
+package Programowanie1.tydzien4.sobota.Zadania015.ex02;
 
 import lombok.Getter;
 
 @Getter
-public enum Sex {
-    MALE,
-    FEMALE
+public enum EyeColor {
+    Blue,
+    Yellow,
+    Green,
+    Red
 }
